@@ -12,7 +12,7 @@ export default function Contact() {
             <h3 className="text-6xl md:text-7xl mb-16 leading-[0.9]">Start a <br /><span className="italic text-brand-sage">Conversation.</span></h3>
             
             <div className="space-y-12">
-               <div className="flex gap-8">
+                <div className="flex gap-8">
                   <div className="w-px h-12 bg-brand-sage/40" />
                   <div>
                     <h4 className="text-[10px] font-bold uppercase tracking-widest text-brand-leaf mb-2">Connect</h4>
@@ -24,7 +24,7 @@ export default function Contact() {
                   <div className="w-px h-12 bg-brand-sage/40" />
                   <div>
                     <h4 className="text-[10px] font-bold uppercase tracking-widest text-brand-leaf mb-2">Location</h4>
-                    <p className="text-xl font-light text-brand-dirt/70 leading-relaxed max-w-xs">{BUSINESS_INFO.address}</p>
+                    <p className="text-xl font-serif italic text-brand-dirt/70 leading-relaxed max-w-xs">{BUSINESS_INFO.address}</p>
                   </div>
                </div>
 
@@ -32,7 +32,7 @@ export default function Contact() {
                   <div className="w-px h-12 bg-brand-sage/40" />
                   <div>
                     <h4 className="text-[10px] font-bold uppercase tracking-widest text-brand-leaf mb-2">Hours</h4>
-                    <p className="text-xl font-light text-brand-dirt/70">{BUSINESS_INFO.timings}</p>
+                    <p className="text-xl font-serif italic text-brand-dirt/70">{BUSINESS_INFO.timings}</p>
                   </div>
                </div>
             </div>
