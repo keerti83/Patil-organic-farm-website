@@ -47,9 +47,9 @@ export default function Hero() {
           >
             <div className="w-[502px] h-[550px] rounded-[200px] overflow-hidden border-[1px] border-brand-earth p-4">
               <img
-                src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&q=80&w=1200"
+                src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYVC6Ap44ecUhtaI_LxlGJKF8sVcwKBIGCleRgVLucy87HLr2VT2bEqepGgRrHwJMl-NqCOB_o3OJE1SMMlBrbUeDktpOD9y2x0plXs7wjtruhPuMPCCIS9QnRikkXaVoj31VY=w1200"
                 alt="Organic Farming"
-                className="w-full h-full object-cover rounded-[180px] grayscale-[0.3] hover:grayscale-0 transition-all duration-1000"
+                className="w-full h-full object-cover rounded-[180px] hover:grayscale-0 transition-all duration-1000"
               />
             </div>
           </motion.div>

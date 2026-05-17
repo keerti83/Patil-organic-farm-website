@@ -23,6 +23,16 @@ export const NAVIGATION = [
 
 export const PRODUCTS = [
   {
+    id: 'dairy',
+    title: 'Dairy farm',
+    description: 'Fresh and pure milk directly from our farm.',
+    icon: 'Milk',
+    image: 'https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&q=80&w=800',
+    gallery: [
+      'https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&q=80&w=800'
+    ]
+  },
+  {
     id: 'vermicompost',
     title: 'Vermicompost',
     description: 'Premium nutrient-rich organic fertilizer produced by earthworms.',
@@ -62,16 +72,6 @@ export const PRODUCTS = [
     image: 'https://ogden_images.s3.amazonaws.com/www.grit.com/images/2011/08/12112636/Earthworms-on-Soil-450x300.jpeg',
     gallery: [
       'https://images.unsplash.com/photo-1589408091166-26f98e41bf83?auto=format&fit=crop&q=80&w=800'
-    ]
-  },
-  {
-    id: 'dairy',
-    title: 'Dairy farm',
-    description: 'Fresh and pure milk directly from our farm.',
-    icon: 'Milk',
-    image: 'https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&q=80&w=800',
-    gallery: [
-      'https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&q=80&w=800'
     ]
   },
 ];
