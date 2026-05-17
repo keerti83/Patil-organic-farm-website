@@ -32,7 +32,10 @@ export default function Products() {
               </div>
               
               <div className="px-2">
-                <h4 className="text-3xl mb-8">{product.title}</h4>
+                <h4 className="text-3xl mb-4">{product.title}</h4>
+                <p className="text-brand-dirt/60 font-light mb-8 leading-relaxed">
+                  {product.description}
+                </p>
                 <div className="w-12 h-px bg-brand-earth group-hover:w-full transition-all duration-500" />
               </div>
             </motion.div>
