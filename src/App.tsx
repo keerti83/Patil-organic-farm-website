@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Products from './components/Products';
+import Gallery from './components/Gallery';
 import WhyChooseUs from './components/WhyChooseUs';
 import Reviews from './components/Reviews';
 import Contact from './components/Contact';
@@ -21,6 +22,7 @@ export default function App() {
         <Hero />
         <About />
         <Products />
+        <Gallery />
         <WhyChooseUs />
         <Reviews />
         <Contact />

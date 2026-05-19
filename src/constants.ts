@@ -17,6 +17,7 @@ export const NAVIGATION = [
   { name: 'Home', href: '#' },
   { name: 'About', href: '#about' },
   { name: 'Products', href: '#products' },
+  { name: 'Gallery', href: '#gallery' },
   { name: 'Why Us', href: '#why-us' },
   { name: 'Contact', href: '#contact' },
 ];

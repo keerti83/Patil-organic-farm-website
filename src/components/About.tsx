@@ -44,16 +44,16 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="lg:col-span-7 relative group"
+            className="lg:col-span-7 relative group flex justify-center lg:justify-start"
           >
-            <div className="bg-white rounded-3xl overflow-hidden p-2 border border-brand-earth">
+            <div className="bg-white rounded-3xl overflow-hidden p-2 sm:p-4 border border-brand-earth bg-[#FDFDE3]/30 w-fit">
               <img
-                src="https://lh3.googleusercontent.com/p/AF1QipPCQ9ca-ZgpZMVIDbhvAoBY-MVU8HDPyGmZitLw=s1200"
-                alt="Working at Farm"
-                className="rounded-[1.25rem] w-full h-auto object-contain grayscale-[0.2] transition-transform duration-1000 ease-out group-hover:scale-110"
+                src="/src/assets/images/patil_farm_logo_no_est_1779210280095.png"
+                alt="Patil Farms Logo"
+                className="w-full max-w-[400px] sm:max-w-[500px] h-auto object-contain transition-transform duration-1000 ease-out group-hover:scale-105"
               />
             </div>
-            <div className="absolute inset-0 border border-brand-sage/20 rounded-[2rem] scale-105 pointer-events-none" />
+            <div className="absolute inset-0 border border-brand-sage/20 rounded-[2rem] scale-105 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity" />
           </motion.div>
         </div>
       </div>
