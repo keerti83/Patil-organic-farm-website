@@ -12,12 +12,48 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: [0.19, 1, 0.22, 1] }}
             >
-              <h1 className="text-7xl md:text-[110px] text-brand-forest leading-[0.85] mb-12">
-                Nature’s <br />
-                <span className="text-brand-sage">Gold.</span>
+              <h1 className="text-7xl md:text-[120px] text-brand-forest leading-[0.8] mb-12 relative flex flex-col items-center lg:items-start">
+                <span className="font-serif italic block mb-12 relative w-fit">
+                  Nature’s
+                  <motion.div 
+                    initial={{ width: 0, opacity: 0 }}
+                    animate={{ width: "100%", opacity: 1 }}
+                    transition={{ duration: 1.5, delay: 0.8, ease: [0.19, 1, 0.22, 1] }}
+                    className="absolute -bottom-6 left-0 h-4 overflow-hidden"
+                  >
+                    <svg width="100%" height="12" viewBox="0 0 160 12" fill="none" preserveAspectRatio="none" className="w-full">
+                      <path 
+                        d="M2 10C25 10 20 2 45 2C70 2 65 10 90 10C115 10 110 2 158 2" 
+                        stroke="#3D5A43" 
+                        strokeWidth="2.5" 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </motion.div>
+                </span>
+                <span className="text-brand-sage font-display block tracking-tighter relative w-fit">
+                  Gold.
+                  <motion.div 
+                    initial={{ width: 0, opacity: 0 }}
+                    animate={{ width: "100%", opacity: 1 }}
+                    transition={{ duration: 1.5, delay: 1, ease: [0.19, 1, 0.22, 1] }}
+                    className="absolute -bottom-6 left-0 h-4 overflow-hidden"
+                  >
+                    <svg width="100%" height="12" viewBox="0 0 180 12" fill="none" preserveAspectRatio="none" className="w-full">
+                      <path 
+                        d="M2 10C30 10 25 2 55 2C85 2 80 10 110 10C140 10 135 2 178 2" 
+                        stroke="#3D5A43" 
+                        strokeWidth="2.5" 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </motion.div>
+                </span>
               </h1>
               
-              <p className="text-xl md:text-2xl text-brand-dirt/60 max-w-lg leading-relaxed font-light mb-16 mx-auto lg:mx-0">
+              <p className="text-xl md:text-2xl text-brand-dirt/60 max-w-xl leading-relaxed font-light mb-16 mx-auto lg:mx-0">
                 Premium organic solutions harvested with regenerative precision in the heart of Belagavi.
               </p>
               

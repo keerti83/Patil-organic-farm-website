@@ -25,7 +25,7 @@ export const PRODUCTS = [
   {
     id: 'dairy',
     title: 'Dairy farm',
-    description: 'Fresh and pure milk directly from our farm.',
+    description: 'Pure buffalo and cow milk available. Fresh and directly from our farm.',
     icon: 'Milk',
     image: 'https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&q=80&w=800',
     gallery: [
