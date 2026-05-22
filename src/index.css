@@ -37,9 +37,6 @@
 }
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-  }
   body {
     @apply font-sans text-brand-forest bg-brand-paper antialiased overflow-x-hidden;
   }
@@ -67,3 +64,6 @@
   grid-auto-rows: minmax(180px, auto);
   gap: 1.5rem;
 }
+
+
+
